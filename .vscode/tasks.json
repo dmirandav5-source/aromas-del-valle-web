@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Instalar dependencias", "type": "npm", "script": "install", "problemMatcher": [] },
+    { "label": "Desarrollo", "type": "npm", "script": "dev", "isBackground": true, "problemMatcher": [], "group": { "kind": "build", "isDefault": true } },
+    { "label": "Compilar", "type": "npm", "script": "build", "problemMatcher": [], "group": "build" },
+    { "label": "Producción", "type": "npm", "script": "start", "isBackground": true, "problemMatcher": [] },
+    { "label": "Pruebas", "type": "npm", "script": "test", "problemMatcher": [], "group": { "kind": "test", "isDefault": true } }
+  ]
+}

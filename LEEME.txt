@@ -1,0 +1,14 @@
+KIT PARA CREAR EL SITIO WEB DE AROMAS DEL VALLE CON CLAUDE CODE
+
+1. Descomprime este archivo en una carpeta vacía, por ejemplo: aromas-del-valle-web
+2. Abre esa carpeta en Visual Studio Code (Archivo > Abrir carpeta).
+3. Instala Node.js 20 LTS si no lo tienes (https://nodejs.org).
+4. Abre Claude Code en esa carpeta (extensión de VS Code o terminal: claude).
+5. Copia todo el contenido de PROMPT_CLAUDE_CODE.md y pégalo como mensaje.
+6. Claude Code leerá la carpeta "referencia" (Excel, solución y caso original) y construirá el proyecto.
+7. Al terminar: npm install  ->  npm run dev  ->  abre http://localhost:5173
+8. Para la URL pública, sigue la sección "Publicar" del README que generará Claude Code (Render, gratis).
+
+Contenido:
+- PROMPT_CLAUDE_CODE.md ........ el prompt
+- referencia/ .................. documentos definitivos (no los borres)

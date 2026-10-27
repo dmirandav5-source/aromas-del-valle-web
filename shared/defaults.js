@@ -1,0 +1,131 @@
+// Valores originales del Excel (celdas de entrada de la hoja Supuestos).
+// Copia idéntica en server/data/supuestos.default.json (lo comprueba una prueba).
+export const SUPUESTOS_DEFAULT = {
+  "tmar": 0.16,
+  "T": 0.295,
+  "f": 0.02,
+  "wcPct": 0.1,
+  "n": 5,
+  "Rf": 0.065,
+  "beta": 0.67,
+  "primaMercado": 0.065,
+  "Wd": 0.75,
+  "costos": [
+    {
+      "id": "verde",
+      "rubro": "Café verde (incluye flete interno)",
+      "valor": 28.5,
+      "pctCaso": 0.52
+    },
+    {
+      "id": "merma",
+      "rubro": "Merma de tostado (15–16 %)",
+      "valor": 5.2,
+      "pctCaso": 0.095
+    },
+    {
+      "id": "mod",
+      "rubro": "Mano de obra directa de tostado",
+      "valor": 3.8,
+      "pctCaso": 0.07
+    },
+    {
+      "id": "energia",
+      "rubro": "Energía y gas",
+      "valor": 2.1,
+      "pctCaso": 0.038
+    },
+    {
+      "id": "empaque",
+      "rubro": "Empaque (bolsa + válvula + etiqueta)",
+      "valor": 4.9,
+      "pctCaso": 0.09
+    },
+    {
+      "id": "calidad",
+      "rubro": "Control de calidad y laboratorio",
+      "valor": 1.4,
+      "pctCaso": 0.025
+    },
+    {
+      "id": "indirectos",
+      "rubro": "Costos indirectos de producción",
+      "valor": 3.6,
+      "pctCaso": 0.066
+    }
+  ],
+  "pTienda": 180,
+  "pOnline": 166,
+  "flete": 28,
+  "pasarela": 0.03,
+  "mkt": 4.5,
+  "pB2B": 102.5,
+  "comB2B": 0.2,
+  "facturacion": 1850000,
+  "shTienda": 0.58,
+  "shOnline": 0.27,
+  "shB2B": 0.15,
+  "cafeTienda": 0.8,
+  "cap0": 80,
+  "cap1": 250,
+  "dias": 300,
+  "invMaq": 180000,
+  "invInt": 50000,
+  "wc1": 30000,
+  "dMaq": 0.1,
+  "dInt": 0.2,
+  "cf1": 72000,
+  "ahMerma": 0.34,
+  "ahEmp": 0.9,
+  "invLima": 115000,
+  "invAqp": 80000,
+  "wcLima": 15000,
+  "wcAqp": 10000,
+  "dT": 0.2,
+  "cmT": 0.62,
+  "FLima": 216000,
+  "FAqp": 132000,
+  "ramp": [
+    0.5,
+    0.75,
+    1,
+    1,
+    1
+  ],
+  "P": 480000,
+  "P1": 260000,
+  "tea": 0.145,
+  "nm": 36,
+  "escenarios": [
+    {
+      "id": "pesimista",
+      "nombre": "Pesimista",
+      "g": 0.08,
+      "b2b": 0.25,
+      "lima": 250000,
+      "aqp": 170000,
+      "prob": 0.25,
+      "original": true
+    },
+    {
+      "id": "base",
+      "nombre": "Base",
+      "g": 0.18,
+      "b2b": 0.6,
+      "lima": 400000,
+      "aqp": 280000,
+      "prob": 0.5,
+      "original": true
+    },
+    {
+      "id": "optimista",
+      "nombre": "Optimista",
+      "g": 0.28,
+      "b2b": 1,
+      "lima": 550000,
+      "aqp": 380000,
+      "prob": 0.25,
+      "original": true
+    }
+  ]
+};

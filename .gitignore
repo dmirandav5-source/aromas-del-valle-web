@@ -1,0 +1,12 @@
+node_modules/
+client/dist/
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Datos de ejecución (se crean solos a partir de supuestos.default.json)
+server/data/supuestos.json
+server/data/escenarios.json
+server/data/versiones.json
+server/data/*.tmp

@@ -1,0 +1,13 @@
+{
+  "name": "@aromas/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "engine.js",
+  "exports": {
+    ".": "./engine.js",
+    "./engine.js": "./engine.js",
+    "./defaults.js": "./defaults.js",
+    "./meta.js": "./meta.js"
+  }
+}

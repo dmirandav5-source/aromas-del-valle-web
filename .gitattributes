@@ -1,0 +1,5 @@
+# Saltos de línea LF en el repositorio (Render despliega en Linux)
+* text=auto eol=lf
+*.xlsx binary
+*.docx binary
+*.png binary
